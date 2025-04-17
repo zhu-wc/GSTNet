@@ -26,7 +26,7 @@ python train.py --exp_name test --batch_size 50 --head 8 --features_path coco_al
 ```python
 python eval.py --annotation_folder annotation --workers 5 --features_path coco_all_align.hdf5 --model_path saved_models/pretrained_model.pth
 ```
-
+Pretrained model is available [here](https://drive.google.com/file/d/1CFKX2W-W_MgQjCE3ZPyp12Xc0SXk-zCS/view?usp=sharing)
 ## References
 
 [1] [M2](https://github.com/aimagelab/meshed-memory-transformer)
